@@ -1,0 +1,50 @@
+-injars 'C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\build\intermediates\multi-dex\debug\allclasses.jar'
+-outjars 'C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'C:\Users\Jean\AppData\Local\Android\sdk\build-tools\23.0.0\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontpreverify
+-dontwarn
+-printconfiguration 'C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class null {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class ca.usimage.resto.MAJ {
+    <init>();
+}
+
+-keep class ca.usimage.resto.RestonetActivity {
+    <init>();
+}
+
+-keep class ca.usimage.resto.DetailActivity {
+    <init>();
+}
+
+-keep class ca.usimage.resto.CarteActivity {
+    <init>();
+}
+
+-keep class ca.usimage.resto.RechActivity {
+    <init>();
+}
+
+-keep class ca.usimage.resto.RestoProvider {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
