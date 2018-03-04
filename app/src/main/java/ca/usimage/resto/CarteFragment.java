@@ -96,7 +96,6 @@ public void onActivityCreated(Bundle savedInstanceState) {
 		googleMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(LAT,LNG)));
 		googleMap.animateCamera(CameraUpdateFactory.zoomTo(12));
 		googleMap.setMyLocationEnabled(true);
-		
 		googleMap.setOnInfoWindowClickListener(onInfoWindowClickListener);
 		googleMap.setInfoWindowAdapter(new InfoWindowAdapter() {
 			

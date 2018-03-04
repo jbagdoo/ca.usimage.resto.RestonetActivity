@@ -1,43 +1,47 @@
--injars 'C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\build\intermediates\multi-dex\debug\allclasses.jar'
--outjars 'C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+-injars 'C:\Users\JC\.gradle\caches\transforms-1\files-1.1\play-services-maps-8.4.0.aar\4968eeecb733ce272d6f11ecddb3e644\jars\classes.jar'(**.class)
+-injars 'C:\Users\JC\.gradle\caches\transforms-1\files-1.1\play-services-base-8.4.0.aar\8d6dbf9bbdf3d7d0580dd9677fbf181c\jars\classes.jar'(**.class)
+-injars 'C:\Users\JC\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\b4c6de0e9a6bc5c523e392e9ef45b0ce\jars\classes.jar'(**.class)
+-injars 'C:\Users\JC\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.1.aar\4d381daed7743e157bc454ad5f8c41de\jars\classes.jar'(**.class)
+-injars 'C:\Users\JC\.gradle\caches\transforms-1\files-1.1\support-v4-23.1.1.aar\4d381daed7743e157bc454ad5f8c41de\jars\libs\internal_impl-23.1.1.jar'(**.class)
+-injars 'C:\Users\JC\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\fd799979d9f99aab96b8ac663b4d8ac0\jars\classes.jar'(**.class)
+-injars 'C:\Users\JC\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar'(**.class)
+-injars 'C:\Users\JC\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.23.0\b95521559faf49989ff036a5b15fd16476bdc955\google-api-client-android-1.23.0.jar'(**.class)
+-injars 'C:\Users\JC\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.23.0\522ea860eb48dee71dfe2c61a1fd09663539f556\google-api-client-1.23.0.jar'(**.class)
+-injars 'C:\Users\JC\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.23.0\1bbe77a8594d7892571266392b8a7dd0a5980664\google-http-client-android-1.23.0.jar'(**.class)
+-injars 'C:\Users\JC\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.23.0\e57ea1e2220bda5a2bd24ff17860212861f3c5cf\google-oauth-client-1.23.0.jar'(**.class)
+-injars 'C:\Users\JC\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.23.0\fd6761f4046a8cb0455e6fa5f58e12b061e9826e\google-http-client-jackson2-1.23.0.jar'(**.class)
+-injars 'C:\Users\JC\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\17.0\463f8378feba44df7ba7cd9272d01837dad62b36\guava-jdk5-17.0.jar'(**.class)
+-injars 'C:\Users\JC\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.23.0\8e86c84ff3c98eca6423e97780325b299133d858\google-http-client-1.23.0.jar'(**.class)
+-injars 'C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar'(**.class)
+-injars 'C:\Users\JC\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar'(**.class)
+-injars 'C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\backend\build\libs\backend-android-endpoints.jar'(**.class)
+-injars 'C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\classes\debug'(**.class)
+-outjars 'C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\multi-dex\debug\componentClasses.jar'
 
--libraryjars 'C:\Users\Jean\AppData\Local\Android\sdk\build-tools\23.0.0\lib\shrinkedAndroid.jar'
+-libraryjars 'C:\Users\JC\AppData\Local\Android\Sdk\build-tools\26.0.2\lib\shrinkedAndroid.jar'
 
 -forceprocessing
 -dontoptimize
 -dontobfuscate
+-dontusemixedcaseclassnames
 -dontpreverify
--dontwarn
--printconfiguration 'C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\build\intermediates\multi-dex\debug\components.flags'
+-dontnote **
+-dontwarn **
+-printconfiguration 'C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\multi-dex\debug\components.flags'
 
 
--keep class null {
+# Referenced at C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:26
+-keep class android.support.multidex.MultiDexApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
     <init>();
     void attachBaseContext(android.content.Context);
-}
-
--keep class ca.usimage.resto.MAJ {
-    <init>();
-}
-
--keep class ca.usimage.resto.RestonetActivity {
-    <init>();
-}
-
--keep class ca.usimage.resto.DetailActivity {
-    <init>();
-}
-
--keep class ca.usimage.resto.CarteActivity {
-    <init>();
-}
-
--keep class ca.usimage.resto.RechActivity {
-    <init>();
-}
-
--keep class ca.usimage.resto.RestoProvider {
-    <init>();
 }
 
 -keep public class * extends android.app.backup.BackupAgent {
@@ -45,6 +49,11 @@
 }
 
 -keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
     <fields>;
     <methods>;
 }

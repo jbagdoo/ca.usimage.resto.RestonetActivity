@@ -1,4 +1,4 @@
-// If you would like more information on the gradle-appengine-plugin please refer to the github page
+    // If you would like more information on the gradle-appengine-plugin please refer to the github page
 // https://github.com/GoogleCloudPlatform/gradle-appengine-plugin
 
 buildscript {
@@ -27,7 +27,11 @@ dependencies {
   compile 'com.google.appengine:appengine-endpoints-deps:1.9.18'
   compile 'javax.servlet:servlet-api:2.5'
 }
-
+    appengine {
+        endpoints {
+            googleClientVersion = '1.23.0'
+        }
+    }
 appengine {
   downloadSdk = true
   appcfg {

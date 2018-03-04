@@ -2,53 +2,174 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\JC\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.0"
-        sha1="04de44f90606c77f3b28cf44861f306290505aac">
-        <dex dex="C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\build\intermediates\pre-dexed\debug\classes-b85236af79b859113179506e236e2d1396959916.jar" />
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.1.3_4a18c6e732dc0ef95ee4d2e82ba6bbc928f6d74a\classes.dex" />
     </item>
     <item
-        jar="C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\libs\android-support-v13.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\JC\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\13.0\381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7\guava-jdk5-13.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.0"
-        sha1="0c39cec0634e45ef67a1041708cf2d63b1a816b7">
-        <dex dex="C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\build\intermediates\pre-dexed\debug\android-support-v13-a81a135287ca4f6a2d6e7400acde7490f7a4a41d.jar" />
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\guava-jdk5-13.0_ab7c5f0915ef816e09e75663437afcbd76fa8df8\classes.dex" />
     </item>
     <item
-        jar="C:\Users\Jean\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\JC\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.19.0\81dbf9795d387d5e80e55346582d5f2fb81a42eb\google-http-client-jackson2-1.19.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.0"
-        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
-        <dex dex="C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-ff49a345904545c022915abc90c63c58d5c1761f.jar" />
+        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-jackson2-1.19.0_8934590800a1dd92329f3815bc099f5671d4ad31\classes.dex" />
     </item>
     <item
-        jar="C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.0"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\build\intermediates\pre-dexed\debug\classes-d8da9b325f2cf7d03762efc94d439fbbbee4dd0c.jar" />
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_b554864f9f2d89f6b6d8bb8264eadcd2d85c7956\classes.dex" />
     </item>
     <item
-        jar="C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\JC\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsr305-1.3.9_1d61d9a90246e65472598d9b2bbc603b72dfbbed\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="02bac90ebf43a09d2d5866d4b0c6729f42fae7a4">
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fd96c6f80a0665aa3cc3dde14bff41c1a1965295\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.0"
         sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\build\intermediates\pre-dexed\debug\classes-714bde23679db74ff470aa9531e01abe26408443.jar" />
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_1cc3caff2ea07705fcc6f21efd2c1f097857951e\classes.dex" />
     </item>
     <item
-        jar="C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.1_0e44d2a573e8d706333d5505c044d90eba645ab1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JC\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.19.0\6a21277d9bebe267b7ddee028b241eebc756c040\google-api-client-1.19.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="6a21277d9bebe267b7ddee028b241eebc756c040">
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-client-1.19.0_7d347b002c5a16e98474ca7e94e31c097d27a099\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.0"
         sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\build\intermediates\pre-dexed\debug\classes-045594aa0393c98e2b5147d6292a418b90577a41.jar" />
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_afce24ea71b55c0fe5783b6d5d7867e3d2eb8c70\classes.dex" />
     </item>
     <item
-        jar="C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\JC\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.0"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="C:\Users\Jean\StudioProjects\ca.usimage.resto.RestonetActivity1\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-60c5c3a4817eee761ad3283233949e61a820dea2.jar" />
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_991e97dbc2ea5fc8d4f2bb0b03a1ef18febf86a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JC\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.19.0\cdca49ad0977c040f603478aa2e16b2775c8fec6\google-http-client-1.19.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-1.19.0_28fed8ef6ff91e927fabee5462d63ad8a9315a72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="f06621d2a7f62e0e38a83d67931b3f22bb03d288">
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fd96c6f80a0665aa3cc3dde14bff41c1a1965295\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JC\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.19.0\d473a8962e14a707a3716637e4898bb2dd9643f2\google-oauth-client-1.19.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-oauth-client-1.19.0_9e43c2c300a1e480b3844e382e5ac0758cadb0c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="99fb67cc5e07a03fba2d83ce37e7c321caf45c22">
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c95683f80cc4ad3277cac997dd0fcfaf0d85c998\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-8.4.0_760370dc753fe01161dc9667fce9a1931de56a2d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JC\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.19.0\e3f11020c2c812112803d252d1392872d3f619c8\google-http-client-android-1.19.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="e3f11020c2c812112803d252d1392872d3f619c8">
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-android-1.19.0_63820d83191aa8fbaf7ada349df1f31c6ca11d10\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JC\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.19.0\ba2aafb867f6af469f936ae76426cf0a280094bd\google-api-client-android-1.19.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="ba2aafb867f6af469f936ae76426cf0a280094bd">
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-client-android-1.19.0_2e8eb18e47ca6d1b686bba77e4619bc371205d4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\JC\StudioProjects\ca.usimage.resto.RestonetActivity\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_3af4860c66b442ecdeef4a98b1f0c90a40ed7aff\classes.dex" />
     </item>
 
 </items>

@@ -98,16 +98,18 @@ public class ListeFragment extends ListFragment implements LoaderManager.LoaderC
 	        String prop =c.getString(c.getColumnIndex(RestoDatabase.COL_PROPRIO));
 	       
 	        ImageView exploitant = (ImageView) view.findViewById(R.id.Exploitant);
-	        if (prop.indexOf("(Fermé)") > 0){
-	        	exploitant.setVisibility(View.VISIBLE);
-	        	exploitant.setImageResource(R.drawable.closed);
-	        	
-	        }
-	        else if (prop.indexOf("changement d") > 0){
-	        	exploitant.setVisibility(View.VISIBLE);
-	        	exploitant.setImageResource(R.drawable.new_owner);
-	        }
-	        
+			if (prop.indexOf("changement d") > 0){
+				exploitant.setVisibility(View.VISIBLE);
+				exploitant.setImageResource(R.drawable.new_owner);
+			}
+
+			else if (prop.indexOf("(Ferm") > 0){
+				exploitant.setVisibility(View.VISIBLE);
+				exploitant.setImageResource(R.drawable.closed);
+
+			}
+
+
 	        else {
 	        	exploitant.setVisibility(View.INVISIBLE);
 	        }
